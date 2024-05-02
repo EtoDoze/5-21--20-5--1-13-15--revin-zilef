@@ -186,6 +186,17 @@
     background-size: cover;
     background-attachment: fixed;
 }
+
+.Titulo2{
+    margin-top: 100px;
+    text-align: center;
+    padding-bottom: 100px;
+    font-family: cursive;
+    font-size: 70px;
+    -webkit-text-stroke: 2px black;
+    animation: H1Move 5s infinite;
+}
+
 .Caminhos{
     height: 100vh;
     display: flex;
@@ -224,3 +235,4 @@
         width: 50vh;
     }
 }
+
