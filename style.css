@@ -314,6 +314,7 @@
         .questoses1{
             margin-top: 50px;
             display: grid;
+            flex-direction: column;
             justify-content: space-evenly;
             font-size: 15px;
             -webkit-text-stroke: 0px rgb(33, 23, 56);
