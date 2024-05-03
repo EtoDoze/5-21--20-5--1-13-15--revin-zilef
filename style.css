@@ -125,58 +125,6 @@
     animation: btnidle 1s infinite;
 }
 
-@media screen and (max-width: 350px){
-
-    /* PARTE1  */
-
-
-    #No{
-        position: absolute;
-        font-family: cursive;
-        width: 70px;
-        height: 35px;
-        border-radius: 10px;
-        font-weight: bold;
-        font-size: 20px;
-        border: 2px solid rgb(59, 3, 59);
-        background: repeating-linear-gradient(rgb(190, 60, 190), rgb(235, 74, 186)); 
-        animation: btnidle 1s infinite;
-    }
-    
-    #Yes{
-        animation: btnidle 1s infinite;
-        margin-right: 10px;
-        font-family: cursive;
-        width: 70px;
-        height: 35px;
-        border-radius: 10px;
-        font-weight: bold;
-        font-size: 20px;
-        border: 2px solid rgb(59, 3, 59);
-        
-        background: repeating-linear-gradient(rgb(190, 60, 190), rgb(235, 74, 186)); 
-    }
-
-    #H1V1{
-        padding-bottom: 100px;
-        font-family: cursive;
-        font-size: 40px;
-        -webkit-text-stroke: 2px black;
-        animation: H1Move 5s infinite;
-    }
-
-    /*LOBBY   */
-
-    #presente1{
-        cursor: pointer;
-        height: 300px;
-        width: 200px;
-        border: 10px solid rgb(73, 4, 73);
-        border-radius: 30px;
-        background-image: url(images/background\ 1\ gif.png);
-        background-size: cover;
-    }
-}
 
 /*LOBBY*/
 
@@ -190,9 +138,13 @@
 .Titulo2{
     margin-top: 100px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 100px;
     font-family: cursive;
     font-size: 70px;
+    background: red;
+    width: 95%;
     -webkit-text-stroke: 2px black;
     animation: H1Move 5s infinite;
 }
@@ -236,3 +188,137 @@
     }
 }
 
+/*      PART 3        */
+
+
+.Body3{
+    background-repeat: repeat-y;
+    background-image: url(images/background\ 3.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Titulo3{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+    font-family: cursive;
+    font-size: 70px;
+    width: 95%;
+    -webkit-text-stroke: 2px rgb(60, 31, 126);
+    animation: H1Move 5s infinite;
+}
+
+#questao1{
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    -webkit-text-stroke: 1px rgb(60, 31, 126);
+    animation: btnidle 15s infinite;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.questoses1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 40px;
+    -webkit-text-stroke: 1px rgb(33, 23, 56);
+    font-family: cursive;
+}
+
+/*      RESPONSIVO     */
+    
+    
+    @media screen and (max-width: 350px){
+
+        /* PARTE1  */
+    
+    
+        #No{
+            position: absolute;
+            font-family: cursive;
+            width: 70px;
+            height: 35px;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 20px;
+            border: 2px solid rgb(59, 3, 59);
+            background: repeating-linear-gradient(rgb(190, 60, 190), rgb(235, 74, 186)); 
+            animation: btnidle 1s infinite;
+        }
+        
+        #Yes{
+            animation: btnidle 1s infinite;
+            margin-right: 10px;
+            font-family: cursive;
+            width: 70px;
+            height: 35px;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 20px;
+            border: 2px solid rgb(59, 3, 59);
+            
+            background: repeating-linear-gradient(rgb(190, 60, 190), rgb(235, 74, 186)); 
+        }
+    
+        #H1V1{
+            padding-bottom: 100px;
+            font-family: cursive;
+            font-size: 40px;
+            -webkit-text-stroke: 2px black;
+            animation: H1Move 5s infinite;
+        }
+    
+        /*LOBBY   */
+    
+        #presente1{
+            cursor: pointer;
+            height: 300px;
+            width: 200px;
+            border: 10px solid rgb(73, 4, 73);
+            border-radius: 30px;
+            background-image: url(images/background\ 1\ gif.png);
+            background-size: cover;
+        }
+
+
+        /*  PARTE 3 */
+
+
+        .Titulo3{
+            text-align: start;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 100px;
+            font-family: cursive;
+            font-size: 40px;
+            width: 90%;
+            -webkit-text-stroke: 2px rgb(60, 31, 126);
+            animation: H1Move 5s infinite;
+        }
+        
+        #questao1{
+            text-align: start;
+            font-size: 20px;
+            font-family: monospace;
+            -webkit-text-stroke: 1px rgb(60, 31, 126);
+            animation: btnidle 15s infinite;
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .questoses1{
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-evenly;
+            font-size: 15px;
+            -webkit-text-stroke: 0px rgb(33, 23, 56);
+            font-family: cursive;
+            width: 95%;
+        }
+    }
